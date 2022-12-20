@@ -7,25 +7,20 @@ But no matter, you know some JavaScript, so let’s get to work modernizing your
 
 Books-‘N-Stuff carries three different types of media: books, CDs, and movies. In this project you will create a parent class named Media with three subclasses: Book, Movie, and CD. These three subclasses have the following properties and methods:
 
-Book
-Properties: author (string), title (string), pages (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty).
-Getters: all properties have a getter
-Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()
-Movie
-Properties: director (string), title (string), runTime (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty)
-Getters: all properties have a getter
-Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()
-CD
-Properties: artist (string), title (string), isCheckedOut (boolean, initially false), and ratings (array, initially empty), songs (array of strings)
-Getters: all properties have a getter
-Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()
-If you’re looking for a challenge, try to create the four classes without using the steps below.
+Book<br>
+Properties: author (string), title (string), pages (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty).<br>
+Getters: all properties have a getter<br>
+Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()<br>
+Movie<br>
+Properties: director (string), title (string), runTime (number), isCheckedOut (boolean, initially false), and ratings (array, initially empty)<br>
+Getters: all properties have a getter<br>
+Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()<br>
+CD<br>
+Properties: artist (string), title (string), isCheckedOut (boolean, initially false), and ratings (array, initially empty), songs (array of strings)<br>
+Getters: all properties have a getter<br>
+Methods: .getAverageRating(), .toggleCheckOutStatus(), and .addRating()<br>
+If you’re looking for a challenge, try to create the four classes without using the steps below.<br>
 
-If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
-
-Tasks
-25/25 Complete
-Mark the tasks as complete by checking them off
 Library Classes
 1.
 Let’s start by making a parent class for our Book, CD, and Movie classes.
